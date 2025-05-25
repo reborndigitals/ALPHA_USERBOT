@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "6154d581d370cbdadd240292c456d7a2") #optional
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8187361583 1281282633").split()))
 OWNER_ID = int(getenv("OWNER_ID", "7640436849"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://ftyvfbgubhu7:hDZwwlNzlKBzls84@ameliamusicbot.f7dzw.mongodb.net/?retryWrites=true&w=majority&appName=AmeliaMusicbot")
-BOT_TOKEN = getenv("BOT_TOKEN", "7285188191:AAEkWgK7Wyd4dny92_NADgAUPgwdqjyM3lA")
+BOT_TOKEN = getenv("BOT_TOKEN", "7285188191:AAEVhyDyyCaUQnMwSOmGqaYEXMHEoQYjYco")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://graph.org/file/9ee37cccd7bf55c3ec953.png')
 ALIVE_TEXT = getenv("ALIVE_TEXT", "ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙᴇ..🏓 \n\n\n ᴘᴏᴡᴇʀᴇᴅ ʙʏ ❤️ \n[𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֯֟፝͢͡𖽸𖾓𝂬𓏲ࣹ᷼𝄢𝂬𝐁𖽞֟֠֯፝͢͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](https://t.me/HeartBeat_Muzic)")
 PM_LOGGER = getenv("PM_LOGGER", "2638782376")
