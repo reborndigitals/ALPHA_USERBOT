@@ -6,13 +6,13 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "29650844")) #optional
-API_HASH = getenv("API_HASH", "6154d581d370cbdadd240292c456d7a2") #optional
+API_ID = int(getenv("API_ID", "29189457")) #optional
+API_HASH = getenv("API_HASH", "299fed7c8e58bc6f9a596c0d53675757") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8187361583 1281282633").split()))
-OWNER_ID = int(getenv("OWNER_ID", "7640436849"))
+OWNER_ID = int(getenv("OWNER_ID", "5305991541"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://ftyvfbgubhu7:hDZwwlNzlKBzls84@ameliamusicbot.f7dzw.mongodb.net/?retryWrites=true&w=majority&appName=AmeliaMusicbot")
-BOT_TOKEN = getenv("BOT_TOKEN", "7285188191:AAEVhyDyyCaUQnMwSOmGqaYEXMHEoQYjYco")
+BOT_TOKEN = getenv("BOT_TOKEN", "8168558389:AAEAtGW68o1kgjn1qAd1_o5VfnNRJoLRpao")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://graph.org/file/9ee37cccd7bf55c3ec953.png')
 ALIVE_TEXT = getenv("ALIVE_TEXT", "ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙᴇ..🏓 \n\n\n ᴘᴏᴡᴇʀᴇᴅ ʙʏ ❤️ \n[𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֯֟፝͢͡𖽸𖾓𝂬𓏲ࣹ᷼𝄢𝂬𝐁𖽞֟֠֯፝͢͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](https://t.me/HeartBeat_Muzic)")
 PM_LOGGER = getenv("PM_LOGGER", "-1002638782376")
@@ -21,7 +21,7 @@ GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://t.me/HeartBeat_Muzic")
 BRANCH = getenv("BRANCH", "main") #don't change
  
-STRING_SESSION1 = getenv("STRING_SESSION1", "BQHEb5wAjh-VJhJTbGAt_16pIrZF4l6cjP-QxNGnnWSaWCZK7VXM4CeOa-7tvG2zawSFwjJ7j-2RgUSRQFMVNQG1MClEtmKV7gdGGiLliJLyQdAbclUPdpkqSWtyiQHrpekPh98VVCOPR97aryTuNZ1fDfIb5_fq0Ik1HTJNV3pv-YMpL2bcpM6r24rDmu_9v9L1wSkaZAQfXTPFNLZuuOspTwWFf-SWu15jYNn8KGohQOalyPkIDWCozJYarP4gwokvEb4EM55nP7GgeQFmc9YymT0hGoDQfNF91g-AOmCWTSqp2o9rU5EojNImgDc91TbCHS8u7k7TvHixm_JJF2NXzzf6RwAAAAHHZ9BxAA")
+STRING_SESSION1 = getenv("STRING_SESSION1", "BQG9ZVEAPkWaAczxnQL1GYiCT0ET6sP5is1h7jxA9NpLV9KQpmV-ut3X4xesbabksEmvnCyasatcmhmEhF1puTGAfcEVZzUqXAG4K1UsYspTii00YdY26x4ZaDZDDHLCp4jgruzUFca5c-HHQJ6690ekGpiYe3wF3CAwjWulpRHTENbKiBG0X8X2gHxaDz7iZkmt_GA8_DOQOUKGaZ9EISJO3yXKGj140c-TpUwL51MNAY_AKbu9ACfjCHP3hWsRvf_9wPD9lC-hqzc5gnPhT1SDafsFsknKt8U0-k2WzQ3LI23Xg2u0nr9J5Y7-5xrOcd1j5A7hOSAJjp3_GXGvBmUV11XVKwAAAAE8QwF1AA")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
