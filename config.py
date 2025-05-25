@@ -6,11 +6,11 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "22987970")) #optional
-API_HASH = getenv("API_HASH", "5d3e78e7c70377b427ce2b4d3e2c4082") #optional
+API_ID = int(getenv("API_ID", "29650844")) #optional
+API_HASH = getenv("API_HASH", "6154d581d370cbdadd240292c456d7a2") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8187361583 1281282633").split()))
-OWNER_ID = int(getenv("OWNER_ID", "8187361583"))
+OWNER_ID = int(getenv("OWNER_ID", "7640436849"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://ftyvfbgubhu7:hDZwwlNzlKBzls84@ameliamusicbot.f7dzw.mongodb.net/?retryWrites=true&w=majority&appName=AmeliaMusicbot")
 BOT_TOKEN = getenv("BOT_TOKEN", "7285188191:AAEVhyDyyCaUQnMwSOmGqaYEXMHEoQYjYco")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://graph.org/file/9ee37cccd7bf55c3ec953.png')
